@@ -3,5 +3,19 @@
 Após a importação em app.component.ts, todos os códigos desse arquivo foram apagados e foi adicionado a tag criada no seletor helloworld.component.ts
 
 -->
+<mat-toolbar color="primary">
 
-<hello-world> </hello-world>
+    <span>Telas</span>
+    <span class="spacer"></span>
+    <a routerLink="/login">Login</a>
+    <a routerLink="/home">Home</a>
+    <a routerLink="/relatorios">Relatórios</a>
+
+
+</mat-toolbar>
+
+
+
+
+
+<router-outlet></router-outlet>

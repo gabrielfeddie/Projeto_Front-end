@@ -1,0 +1,64 @@
+body {
+            font-family: Arial, sans-serif;
+            background: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 80px;
+        }
+
+        .box {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 40px;
+            font-weight: 600;
+        }
+
+        label {
+            display: block;
+            text-align: left;
+            margin-bottom: 5px;
+            font-size: 12px;
+            letter-spacing: 1px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 320px;
+            padding: 10px;
+            margin-bottom: 25px;
+            border: 1px solid #444;
+            outline: none;
+            font-size: 14px;
+        }
+
+        .links {
+            font-size: 12px;
+            margin-bottom: 25px;
+            line-height: 18px;
+        }
+
+        .links a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        button {
+            width: 150px;
+            padding: 10px;
+            background: #1c1c1c;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 6px;
+            font-size: 14px;
+        }
